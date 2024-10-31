@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+    </style>
+    <title>DBZ API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">DragonBall API Z</h1>
+      <div class="buttons">
+        <input type="button" value="fight" id="fightBtn" class="btn" />
+        <input type="button" value="reset" id="resetBtn" class="btn" />
+      </div>
+      <p id="winner"></p>
+      <div class="fighters">
+        <h2 id="char-name"></h2>
+        <div class="stats">
+          <p id="char-ki"></p>
+          <p id="char-maxki"></p>
+          <p id="char-race"></p>
+          <p id="char-affiliation"></p>
+        </div>
+        <img id="char-image" alt="" />
+        <h2 id="char2-name"></h2>
+        <div class="stats2">
+          <p id="char2-ki"></p>
+          <p id="char2-maxki"></p>
+          <p id="char2-race"></p>
+          <p id="char2-affiliation"></p>
+        </div>
+        <img id="char2-image" alt="" />
+      </div>
+      <div class="character-container"></div>
+    </div>
+    <div class="footer"><p>Coded in a day by Antoine Lafontaine, thanks to <a href="https://web.dragonball-api.com/">DBZ API</a></p></div>
+    <script src="app.js"></script>
+  </body>
+</html>
